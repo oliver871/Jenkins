@@ -1,5 +1,5 @@
 pipeline {
-    agent Pipeline
+    agent {Pipeline}
     stages {
         stage ('Compile Stage') {
 
