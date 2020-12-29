@@ -1,6 +1,6 @@
 pipeline {
-    agent {Pipeline}
-    stages {
+    agent label
+        stages {
         stage ('Compile Stage') {
 
             steps {
